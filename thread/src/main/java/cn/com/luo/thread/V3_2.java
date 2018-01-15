@@ -4,7 +4,7 @@ import static java.lang.Thread.sleep;
 
 /**
  * ThreadLocal
- *
+ *     线程本地变量——每个线程有自己独立的变量
  */
 public class V3_2 {
     private static ThreadLocal threadLocal = new ThreadLocal();
